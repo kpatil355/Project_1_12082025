@@ -1,0 +1,33 @@
+
+<suite name="Suite" parallel="tests">
+<test thread-count="5" name="Test">
+<parameter name="os" value="windows"/>
+<parameter name="br" value="chrome"/>
+<parameter name="url" value="https://medimention.com"/>
+<classes>
+<class name="com.medimention.testcase.TestCase_Registration"/>
+<class name="com.medimention.testcase.BaseClass"/>
+</classes>
+</test>
+<!--  Test  -->
+<test thread-count="5" name="Test2">
+<parameter name="os" value="windows"/>
+<parameter name="br" value="chrome"/>
+<parameter name="url" value="https://medimention.com"> </parameter>
+<classes>
+<class name="com.medimention.testcase.TestCase_Login"/>
+<class name="com.medimention.testcase.BaseClass"/>
+</classes>
+</test>
+<!--  Test  -->
+<test thread-count="5" name="Test3">
+<parameter name="os" value="windows"/>
+<parameter name="br" value="chrome"/>
+<parameter name="url" value="https://medimention.com"/>
+<classes>
+<class name="com.medimention.testcase.TestCase_Selectcity"/>
+</classes>
+</test>
+<!--  Test  -->
+</suite>
+<!--  Suite  -->
